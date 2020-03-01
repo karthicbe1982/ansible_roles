@@ -49,3 +49,5 @@ So primarily the difference between the Shell and Command module is that if you 
 
     $ ansible webservers -m shell -a "ls -l > temp.txt "
     
+    
+     
