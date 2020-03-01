@@ -1,6 +1,6 @@
 # Welcome to Ansible Ad-hoc
 
-img [**src**](https://raw.githubusercontent.com/karthicbe1982/ansible_roles/master/Hostname_update.jpg)
+![Image](https://raw.githubusercontent.com/karthicbe1982/ansible_roles/master/Hostname_update.jpg)
 
 ## Introduction to ad-hoc commands
 
