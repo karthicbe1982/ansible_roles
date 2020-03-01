@@ -38,6 +38,14 @@ If you add --ask-become-pass or -K, Ansible prompts you for the password to use 
 
 Some of the Examples are given below
  
-   $ ansible atlanta –m command -a ‘uptime’
-   $ ansible atlanta –m command -a ‘hostname’
+    $ ansible atlanta –m command -a "uptime"
+   
+    $ ansible atlanta –m command -a "hostname"
+    
+### 3. Shell Module
+To execute any command in the shell of your choice you can use the Shell module. The shell module commands are run in /bin/sh shell and you can make use of the operators like ‘>’ or ‘|’ (pipe symbol or even environment variables.
 
+So primarily the difference between the Shell and Command module is that if you actually do not need to use the operators like the ones mentioned then you could use the command module.
+
+    $ ansible webservers -m shell -a "ls -l > temp.txt "
+    
