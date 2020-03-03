@@ -14,9 +14,8 @@ Ad-hoc commands are great for tasks you repeat rarely. For example, if you want 
 
 To get information about the network or hardware or OS version or memory related information the setup module will help to gather the same about the target machines. On the control, the machine runs the below command.
 
-    $ anisble webservers -m setup 
+   $ **anisble webservers -m setup** 
     
-![Image](https://raw.githubusercontent.com/karthicbe1982/ansible_roles/master/images/setup.jpg)
     
 ### 2. Command Module
 
